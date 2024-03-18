@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -17,7 +19,7 @@ public class Main {
 
 
 
-        ArrayStack arrayStack = new ArrayStack(3);
+        /*ArrayStack arrayStack = new ArrayStack(3);
 
         arrayStack.push(1);
         arrayStack.push(3);
@@ -40,9 +42,35 @@ public class Main {
         arrayStack.pop();  // popped 6
         System.out.println(arrayStack.returnSize());
 
-        System.out.println("Top element : ");
+        System.out.println("Top element : ");*/
         //arrayStack.peek(); // Will provide EmptyStackException
 
         // arrayStack.pop(); // Will provide EmptyStackException
+
+
+        // Queue
+
+        Queue<Integer> queue = new ArrayDeque<>();
+
+        queue.offer(5);
+        queue.offer(1);
+        queue.offer(4);
+        queue.offer(2);
+
+        System.out.println(queue.poll());
+
+        System.out.println(queue.peek());
+
+        /*StackUsingQueue suq = new StackUsingQueue<>();
+
+        suq.push(5);
+        suq.push(1);
+        suq.push(2);
+        suq.push(7);
+
+        //System.out.println(suq.peek());
+
+        System.out.println(suq.pop());*/
+
     }
 }
