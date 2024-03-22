@@ -50,7 +50,7 @@ public class Main {
 
         // Queue
 
-        Queue<Integer> queue = new ArrayDeque<>();
+        /*Queue<Integer> queue = new ArrayDeque<>();
 
         queue.offer(5);
         queue.offer(1);
@@ -59,7 +59,7 @@ public class Main {
 
         System.out.println(queue.poll());
 
-        System.out.println(queue.peek());
+        System.out.println(queue.peek());*/
 
         /*StackUsingQueue suq = new StackUsingQueue<>();
 
@@ -71,6 +71,36 @@ public class Main {
         //System.out.println(suq.peek());
 
         System.out.println(suq.pop());*/
+
+        /*Graph graph = new Graph(5);
+
+        graph.addEdge(1, 2);
+        graph.addEdge(1, 5);
+        graph.addEdge(2, 3);
+        graph.addEdge(2, 4);
+        graph.addEdge(2, 5);
+        graph.addEdge(3, 4);
+        graph.addEdge(4, 5);
+
+        graph.printGraph();*/
+
+        int V = 5;
+        Dijsktra graph = new Dijsktra(V);
+
+        graph.addEdge(1, 2, 5);
+        graph.addEdge(1, 5, 8);
+        graph.addEdge(2, 3, 10);
+        graph.addEdge(2, 4, 20);
+        graph.addEdge(3, 4, 2);
+        graph.addEdge(2, 5, 15);
+        graph.addEdge(4, 5, 11);
+
+        int[] distance = graph.dijkstraImplement(1);
+
+        System.out.println("Shortest distances from source vertex 0:");
+        for (int i = 1; i <=V; i++) {
+            System.out.println("Vertex " + i + ": " + distance[i]);
+        }
 
     }
 }
