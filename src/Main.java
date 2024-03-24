@@ -3,8 +3,7 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-
-        /*try{
+ /*try{
             // Attempt to create large arrays until OutOfMemoryError occurs
             for (int i = 1; i <= 1000000000; i++) {
 
@@ -84,7 +83,7 @@ public class Main {
 
         graph.printGraph();*/
 
-        int V = 5;
+        /*int V = 5;
         Dijsktra graph = new Dijsktra(V);
 
         graph.addEdge(1, 2, 5);
@@ -100,7 +99,10 @@ public class Main {
         System.out.println("Shortest distances from source vertex 0:");
         for (int i = 1; i <=V; i++) {
             System.out.println("Vertex " + i + ": " + distance[i]);
-        }
+        }*/
+
+
+        System.out.println("Hello from command line");
 
     }
 }
