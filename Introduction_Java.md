@@ -4,18 +4,7 @@
 
 # History
 
-**Java** is a widely-used, versatile, and
-platform-independent programming language known for its
-simplicity, robustness, and scalability. Developed by James
-Gosling and his team at Sun Microsystems (now owned by Oracle
-Corporation) in the mid-1990s, Java has since become one of
-the most popular languages in the world, powering everything
-from enterprise software to mobile applications, web
-development, and embedded systems.Java was created because
-back in the 1990s, making software was tough. There were
-many different types of computers, and each ran on different
-systems, making it hard to write programs that worked
-everywhere.
+**Java** is a widely-used, versatile, and platform-independent programming language known for its simplicity, robustness, and scalability. Developed by James Gosling and his team at Sun Microsystems (now owned by Oracle Corporation) in the mid-1990s, Java has since become one of the most popular languages in the world, powering everything from enterprise software to mobile applications, web development, and embedded systems.Java was created because back in the 1990s, making software was tough. There were many different types of computers, and each ran on different systems, making it hard to write programs that worked everywhere.
 
 # Speciality
 
@@ -35,14 +24,8 @@ everywhere.
    way that's suitable for the
    particular system it's running on. </span>
 
-
-```java
-   public class HelloWorld {
-     public static void main(String[] args) {
-      System.out.println("Hello, World!");
-     }
-   }
-```
+2. ### Object-Oriented Programming (OOP):
+   Java is a pure object-oriented programming language, emphasizing the creation of reusable code components called objects. OOP principles such as encapsulation, inheritance, and polymorphism allow for modular and maintainable code.
 
 
 </div>
