@@ -34,8 +34,7 @@ everywhere.
    as long as they have a JVM installed.    <span style="color:red;"> The JVM takes care of executing the bytecode in a
    way that's suitable for the
    particular system it's running on. </span>
-<pre>
-<code>
+
 
 ```java
    public class HelloWorld {
@@ -44,8 +43,6 @@ everywhere.
      }
    }
 ```
-</code>
-</pre>
 
 
 </div>
