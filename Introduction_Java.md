@@ -35,17 +35,12 @@ everywhere.
    way that's suitable for the
    particular system it's running on. </span>
 
-<pre>
-<code>
-
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-
-</code>
-</pre>
-
+```java
+   public class HelloWorld {
+     public static void main(String[] args) {
+      System.out.println("Hello, World!");
+     }
+   }
+```
 
 </div>
