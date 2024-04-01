@@ -1,9 +1,21 @@
 import java.util.*;
+import Test_Package.Test_Class;
 
-public class Main {
+public class Main{
 
     public static void main(String[] args) {
- /*try{
+
+        //Using another projects("Test") package here
+
+        Test_Class test_class = new Test_Class();
+        test_class.test_method();
+
+        /*Class c=ClassLoader.class;
+        System.out.println(c.getClassLoader());
+        System.out.println(String.class.getClassLoader());
+*/
+
+       /*try{
             // Attempt to create large arrays until OutOfMemoryError occurs
             for (int i = 1; i <= 1000000000; i++) {
 
@@ -102,7 +114,8 @@ public class Main {
         }*/
 
 
-        System.out.println("Hello from command line");
+        //System.out.println("Hello from command line");
+
 
     }
 }
