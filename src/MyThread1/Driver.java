@@ -36,9 +36,9 @@ public class Driver{
         myThread12.start();
         myThread13.start();
 
-        myThread11.join();  // main thread will pause until MyThread1 finishes
-        myThread12.join();  // main thread will pause until MyThread2 finishes
-        myThread13.join();  // main thread will pause until MyThread3 finishes
+        myThread11.join();  // Driver thread will pause until MyThread1 finishes
+        myThread12.join();  // Driver thread will pause until MyThread2 finishes
+        myThread13.join();  // Driver thread will pause until MyThread3 finishes
 
         System.out.println(myThread11.isAlive()); //it gives false bcz it is after join()
 

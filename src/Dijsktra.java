@@ -10,14 +10,13 @@ public class Dijsktra {
             this.V = V;
             arrayOfList = new LinkedList[V+1];
 
-            for (int i=1; i<=V; i++) {
-                arrayOfList[i]= new LinkedList<>();
-            }
+            Arrays.fill(arrayOfList, new LinkedList<Node>());
         }
 
         public void addEdge(int source, int destination, int weight){
 
             arrayOfList[source].add(new Node(destination, weight));
+            arrayOfList[destination].add(new Node(source, weight));
         }
 
         public int[] dijkstraImplement(int source) {
@@ -31,6 +30,7 @@ public class Dijsktra {
             pq.offer(new Node(source, 0));
 
             while (!pq.isEmpty()) {
+
                 Node currentNode = pq.poll();
                 int currentSource = currentNode.u;
 
